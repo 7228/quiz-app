@@ -51,7 +51,7 @@ export default function App() {
                                                                                             
     return(
 
-       <div className="main">
+       <div className="app">
             <AppContext.Provider value={{
                 questions, setQuestions,
                 startQuiz, setStartQuiz,
