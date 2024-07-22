@@ -99,6 +99,7 @@ export default function Quiz() {
     return(
         <div className="opening-window">
             <div className="top-right-quiz"></div>
+            <h2 className="header">Quizzical</h2>
             <div className="main-content">
                 {questionsWithFourAnswers}
             </div>
